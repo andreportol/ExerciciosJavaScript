@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="bg-secondary">
+    <div class="container mt-5 mb-3 bg-light ">
+        <div class="row p-3">
+            <div class="col-sm-6 offset-1">
+                <h1 class="text-end"><strong>Exercício 3</strong></h1>
+                <p class="text-lg-start"><strong>Palavra:</strong></p>
+                <input class="form-control" autofocus placeholder="Digite a palavra aqui" type="text" id="inputPalavra">
+                <button class="btn btn-primary mt-4" onclick="contarVogais()">Contar</button>
+            </div>
+        </div>
+        <div class="row p-3">
+            <div class="col-sm-6 offset-1 d-flex flex-row">
+                <p class="fs-3 text-success">Número de vogais:</p>
+                <p class="fs-3 text-success px-2" id="id_contadorVogais"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
