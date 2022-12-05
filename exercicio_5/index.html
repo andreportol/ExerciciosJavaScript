@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparar senha</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container bg-dark mt-5 p-3">
+        <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="h1 text-white text-center">Formulário HTML</h1>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-6 d-flex">
+                    <label class="form-label text-white pt-2 fs-3">Password:</label>
+                    <input id="id_senha1" class="form-control mx-2 w-50 fs-4" type="password"
+                        placeholder="Digite a senha">
+                </div>
+                <div class="col-6 d-flex">
+                    <label class="form-label text-white pt-2 fs-3" for="">Repita o Password:</label>
+                    <input id="id_senha2" class="form-control mx-2 w-50 fs-4" type="password"
+                        placeholder="Repita a senha">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mt-5 d-flex justify-content-end ">
+                    <input id="id_botao" onclick="verificarSenhas()" class="btn btn-warning text-white btn-lg "
+                        type="button" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
